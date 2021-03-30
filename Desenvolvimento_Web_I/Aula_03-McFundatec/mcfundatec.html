@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mc Fundatec</title>
+    <link rel="icon" type="image/jpg" href="./mIcon.png" />
+  </head>
+  <body style="font-family: Arial, Helvetica, sans-serif">
+    <form action="http://mcfundatec.fast.food/pedido" method="POST">
+      <div>
+        <center><h1 style="background-color: red">MC Fundatec</h1></center>
+        <div>
+          <p>Escolha o tipo de pão:</p>
+          <div>
+            <input
+              type="radio"
+              name="tipopao"
+              id="comGergelim"
+              value="comGergelim"
+            />
+            <label for="comGergelim">Pão com Gergelim</label>
+            <input
+              type="radio"
+              name="tipopao"
+              id="semGergelim"
+              value="semGergelim"
+            />
+            <label for="semGergelim">Pão sem Gergelim</label>
+          </div>
+        </div>
+        <hr />
+        <div>
+          <p>Escolha o tipo de hamburguer:</p>
+          <div>
+            <input
+              type="radio"
+              name="tipohamburguer"
+              id="carne"
+              value="carne"
+            />
+            <label for="carne">Hamburguer de carne</label>
+            <input
+              type="radio"
+              name="tipohamburguer"
+              id="frango"
+              value="frango"
+            />
+            <label for="frango">Hamburguer de frango empanado</label>
+            <input
+              type="radio"
+              name="tipohamburguer"
+              id="cordeiro"
+              value="cordeiro"
+            />
+            <label for="cordeiro">Hamburguer de cordeiro</label>
+          </div>
+        </div>
+        <hr />
+        <div>
+          <p>Escolha o tipo de queijo:</p>
+          <div>
+            <select name="tipoqueijo" id="tipoqueijo">
+              <option value="">Escolha o queijo</option>
+              <option value="cheddar">Cheddar</option>
+              <option value="prato">Prato</option>
+              <option value="gorgonzola">Gorgonzola</option>
+              <option value="mussarela">Mussarela</option>
+            </select>
+          </div>
+        </div>
+        <hr />
+        <div>
+          <p>Ingredientes opcionais:</p>
+          <table>
+            <tr>
+              <td>
+                <input type="checkbox" name="alface" id="alface" />
+                Alface
+              </td>
+              <td>
+                <input type="checkbox" name="picles" id="picles" /> Picles
+              </td>
+              <td>
+                <input type="checkbox" name="catchup" id="catchup" /> Catchup
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="checkbox" name="tomate" id="tomate" />
+                Tomate
+              </td>
+              <td>
+                <input
+                  type="checkbox"
+                  name="molhobarbecue"
+                  id="molhobarbecue"
+                />
+                Molho Barbecue
+              </td>
+              <td>
+                <input type="checkbox" name="mostarda" id="mostarda" />
+                Mostarda
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="checkbox" name="maionese" id="maionese" /> Maionese
+              </td>
+              <td>
+                <input type="checkbox" name="bacon" id="bacon" />
+                Bacon
+              </td>
+              <td>
+                <input type="checkbox" name="porcaofritas" id="porcaofritas" />
+                Porção de batata frita
+              </td>
+            </tr>
+          </table>
+        </div>
+        <hr />
+        <div>
+          <p>Informações do pedido:</p>
+          <p>Nome do cliente:</p>
+          <input
+            type="text"
+            name="nomecliente"
+            id="nomecliente"
+            maxlength="50"
+          />
+        </div>
+        <hr />
+        <button type="submit">Fazer Pedido</button>
+        <button type="reset">Refazer Pedido</button>
+      </div>
+    </form>
+  </body>
+</html>
