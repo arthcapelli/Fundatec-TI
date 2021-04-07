@@ -1,0 +1,77 @@
+.menu {
+  background-color: #3983f1;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sub-menu {
+  margin: 5px;
+}
+
+.sub-menu:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.text {
+  margin-top: 70px;
+  margin-left: 10px;
+}
+
+.btn {
+  position: fixed;
+  bottom: 75px;
+  right: 10px;
+}
+
+.btn button {
+  padding: 15px;
+  color: white;
+  background-color: #d45431;
+  border: none;
+}
+
+.btn button:hover {
+  box-shadow: 5px 5px 2px black;
+  cursor: pointer;
+}
+
+.btn2 button {
+  padding: 10px;
+  color: white;
+  background-color: #d45431;
+  border: none;
+  margin-top: 8px;
+}
+
+.btn2 button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.att {
+  margin-bottom: 8px;
+}
+
+.formulario {
+  color: white;
+  background-color: #f1c739;
+  margin-left: 10px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  width: 300px;
+}
+
+.rodape {
+  color: white;
+  background-color: #3983f1;
+  text-align: center;
+  padding: 8px;
+  position: sticky;
+  bottom: 0;
+  margin-top: 10px;
+}
